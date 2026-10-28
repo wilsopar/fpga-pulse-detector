@@ -69,6 +69,6 @@ PASS: all 34 vectors matched.
 # Limitations / Performance (10/27/26)
 - Tested with synthetic signal samples in simulation; not yet deployed on an FPGA or connected to a receiver.
 - Detects sustained signal power; does not identify a signal's source or classify its contents.
-- Four qualifying valid samples are required for detection. Invalid samples pause the count.
+- Four qualifying valid samples are required for detection. Invalid samples pause/will stop the count.
 - Passing 34 sample checks confirms the tested cases, rather than every possible input sequence.
 - FPGA resource usage, maximum clock frequency, and physical hardware performance have not been measured.
